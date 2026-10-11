@@ -16,7 +16,7 @@ class App(tk.Tk):
 
         self.buttons = []
         self.title("Dibujante")
-        self.geometry("420x600")
+        self.geometry("420x700")
         self.resizable(False, False)
 
         self.configure(bg="#1e1e2e")
@@ -105,6 +105,7 @@ class App(tk.Tk):
         from ejemplos import ejemplo2 as e2
         from ejemplos import ejemplo3 as e3
         from ejemplos import ejemplo4 as e4
+        from ejemplos import rayo as r
 
         common_turtle = Turtle()
 
@@ -113,6 +114,7 @@ class App(tk.Tk):
             e2.crear(common_turtle),
             e3.crear(common_turtle),
             e4.crear(common_turtle),
+            r.crear(common_turtle),
         ]
 
         botones: List[EjemploButton] = []
