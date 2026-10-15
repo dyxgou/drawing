@@ -22,7 +22,7 @@ class Ejemplo(Pintor):
         self.crear_pantalla(self.titulo)
         self.asignar_fondo(fondo)
 
-    def asignarFuncion(self, func: EjemploFunc):
+    def asignar_funcion(self, func: EjemploFunc):
         self.func = func
 
     def ejecutar(self):

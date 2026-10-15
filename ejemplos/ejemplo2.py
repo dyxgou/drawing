@@ -16,14 +16,9 @@ def _ejemplo2(t: Turtle):
         t.left(120)
         t.pendown()
 
-    t.right(180)
-    t.penup()
-    t.forward(100)
-    t.pendown()
-
 
 def crear(t: Turtle) -> Ejemplo:
     ejemplo = Ejemplo(t, "Ejemplo 1 de Blockly")
-    ejemplo.asignarFuncion(_ejemplo2)
+    ejemplo.asignar_funcion(_ejemplo2)
 
     return ejemplo

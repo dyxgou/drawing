@@ -28,6 +28,6 @@ def _ejemplo3(t: Turtle):
 
 def crear(t: Turtle) -> Ejemplo:
     ejemplo = Ejemplo(t, "Ejemplo 1 de Blockly")
-    ejemplo.asignarFuncion(_ejemplo3)
+    ejemplo.asignar_funcion(_ejemplo3)
 
     return ejemplo
